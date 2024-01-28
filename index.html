@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chomp - Delivery Food</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    
+
+    <header>
+        <section class="mensagem-azul">
+            <p>We're open and avaliable for takeaway & delivery. Order Now</p>
+        </section>
+        <section class="navbar">
+            <img src="assets/logo.svg" width="60px" class="logo">
+            <div class="lado-direito-nav">
+                <ul>
+                    <li id="home-blue"><a href="">Home</a></li>
+                    <li id="order-blue"><a href="">Order</a></li>
+                    <li id="company-blue"><a href="">Company</a></li>
+                    <li id="faq-blue"><a href="">FAQ</a></li>
+                    <li id="contact-blue"><a href="">Contact</a></li>
+                </ul>
+                <button class="btn"><i class='bx bx-cart-add'></i></button>
+            </div>
+        </section>
+    </header>
+
+    <main>
+        <section class="primeira-dobra">
+            <div class="lado-esquerdo-primeira-dobra">
+                <h1>Beatiful food &<br>takeaway, <span class="delivered-blue">delivered</span><br>to your door.</h1>
+                <h3>Lorem Ipsum is simply dummy text of the printing and typesetting<br>industry. Lorem Ipsum has been the industry's standard dummy text<br>ever since the 1500.</h3>
+                <button class="btn">Place an Order</button>
+                <div class="stars-and-avaliation">
+                    <p><i class='bx bxs-star' ></i> Trustpilot</p>
+                    <p id="review"><span>4.8 out of 5</span> based on 2000+ reviews</p>
+                </div>
+            </div>
+            <div class="lado-direito-primeira-dobra">
+                <img src="assets/img1.png">
+            </div>
+        </section>
+
+        <section class="segunda-dobra">
+            <div class="lado-esquerdo-segunda-dobra">
+                <h1>The home of<br>fresh products</h1>
+                <h3>Lorem Ipsum is simply dummy text of the printing and typesetting<br>industry. Lorem Ipsum has been the indstry's standard dummy text<br>ever since the 1500.</h3>
+                <button class="btn">Learn about us</button>
+            </div>
+            <div class="lado-direito-segunda-dobra">
+                <img src="assets/img2.jpg">
+            </div>
+        </section>
+
+        <section class="terceira-dobra">
+            <div class="coluna-um-terceira-dobra">
+                <h1>How it works.</h1>
+            </div>
+            <div class="coluna-dois-terceira-dobra">
+                <div class="adapt-your-menu-items">
+                    <img src="assets/how-it-work-1.png" width="300px">
+                    <div class="textos-adapt-your-menu-items">
+                        <h2>Adapt your menu items</h2>
+                        <h3>Easily adapt your menu using the<br>webflow CMS and allow customers to<br>browse your items.</h3>
+                    </div>
+                </div>
+                <div class="accept-online-orders">
+                    <img src="assets/how-it-work-2.png" width="300px">
+                    <div class="textos-accept-online-orders">
+                        <h2>Accept online orders & takeout</h2>
+                        <h3>Let your customers order and pay via<br>the powerful ecommerce system, or<br>simple let them call your store.</h3>
+                    </div>
+                </div>
+                <div class="manage-delivery-or-takeout">
+                    <img src="assets/how-it-work-3.png" width="300px">
+                    <div class="textos-manage-delivery-or-takeout">
+                        <h2>Manage delivery or takeout</h2>
+                        <h3>Manage your own logistics and take<br>orders simply through the ecommerce<br>system.</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="quarta-dobra">
+            <div class="coluna-um-quarta-dobra">
+                <h1>Browse our menu</h1>
+                <h3>Use our menu to place an order online, or <span>phone</span> our store to<br>place a pickup order. Fast and fresh food.</h3>
+                <div class="buttons-cardapios">
+                    <button id="burguers">Burguers</button>
+                    <button id="sides">Sides</button>
+                    <button id="drinks">Drinks</button>
+                </div>
+            </div>
+            <div class="coluna-dois-quarta-dobra">
+                <!--Div burguers-->
+                <div id="row-um-burguers" class="row-um-burguers">
+                    <div class="container-burguer">
+                        <img src="assets/burguer dreams.png" width="120px">
+                        <div class="container-texts-burguer">
+                            <div class="name-and-price">
+                                <h2>Burguer Dreams</h2>
+                                <p>$ 9.20 USD</p>
+                            </div>
+                            <h3>Lorem Ipsum is simply dummy text of the printing<br>and typesetting industry.</h3>
+                            <div class="buttons-burguers">
+                                <input placeholder="1" type="number">
+                                <button>Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-burguer">
+                        <img src="assets/burguer waldo.png" width="120px">
+                        <div class="container-texts-burguer">
+                            <div class="name-and-price">
+                                <h2>Burguer Waldo</h2>
+                                <p>$ 10.00 USD</p>
+                            </div>
+                            <h3>Lorem Ipsum is simply dummy text of the printing<br>and typesetting industry.</h3>
+                            <div class="buttons-burguers">
+                                <input placeholder="1" type="number">
+                                <button>Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="row-dois-burguers" class="row-dois-burguers">
+                    <div class="container-burguer">
+                        <img src="assets/burguer cali.png" width="120px">
+                        <div class="container-texts-burguer">
+                            <div class="name-and-price">
+                                <h2>Burguer Cali</h2>
+                                <p>$ 10.00 USD</p>
+                            </div>
+                            <h3>Lorem Ipsum is simply dummy text of the printing<br>and typesetting industry.</h3>
+                            <div class="buttons-burguers">
+                                <input placeholder="1" type="number">
+                                <button>Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-burguer">
+                        <img src="assets/burguer bacon buddy.png" width="120px">
+                        <div class="container-texts-burguer">
+                            <div class="name-and-price">
+                                <h2>Burguer Bacon Buddy</h2>
+                                <p>$ 9.99 USD</p>
+                            </div>
+                            <h3>Lorem Ipsum is simply dummy text of the printing<br>and typesetting industry.</h3>
+                            <div class="buttons-burguers">
+                                <input placeholder="1" type="number">
+                                <button>Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="row-tres-burguers" class="row-tres-burguers">
+                    <div class="container-burguer">
+                        <img src="assets/burguer spicy.png" width="120px">
+                        <div class="container-texts-burguer">
+                            <div class="name-and-price">
+                                <h2>Burguer Spicy</h2>
+                                <p>$ 9.20 USD</p>
+                            </div>
+                            <h3>Lorem Ipsum is simply dummy text of the printing<br>and typesetting industry.</h3>
+                            <div class="buttons-burguers">
+                                <input placeholder="1" type="number">
+                                <button>Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-burguer">
+                        <img src="assets/burguer classic.png" width="120px">
+                        <div class="container-texts-burguer">
+                            <div class="name-and-price">
+                                <h2>Burguer Classic</h2>
+                                <p>$ 8.00 USD</p>
+                            </div>
+                            <h3>Lorem Ipsum is simply dummy text of the printing<br>and typesetting industry.</h3>
+                            <div class="buttons-burguers">
+                                <input placeholder="1" type="number">
+                                <button>Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Div sides-->
+                <div id="row-um-sides" class="row-um-sides">
+                    <div class="container-burguer">
+                        <img src="assets/salad ceaser.png" width="120px">
+                        <div class="container-texts-burguer">
+                            <div class="name-and-price">
+                                <h2>Salad Ceaser</h2>
+                                <p>$ 6.00 USD</p>
+                            </div>
+                            <h3>Lorem Ipsum is simply dummy text of the printing<br>and typesetting industry.</h3>
+                            <div class="buttons-burguers">
+                                <input placeholder="1" type="number">
+                                <button>Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-burguer">
+                        <img src="assets/beans slow cooked.png" width="120px">
+                        <div class="container-texts-burguer">
+                            <div class="name-and-price">
+                                <h2>Beans Slow Cooked</h2>
+                                <p>$ 4.00 USD</p>
+                            </div>
+                            <h3>Lorem Ipsum is simply dummy text of the printing<br>and typesetting industry.</h3>
+                            <div class="buttons-burguers">
+                                <input placeholder="1" type="number">
+                                <button>Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="row-dois-sides" class="row-dois-sides">
+                    <div class="container-burguer">
+                        <img src="assets/frie cheese.png" width="120px">
+                        <div class="container-texts-burguer">
+                            <div class="name-and-price">
+                                <h2>Fries Cheese</h2>
+                                <p>$ 5.00 USD</p>
+                            </div>
+                            <h3>Lorem Ipsum is simply dummy text of the printing<br>and typesetting industry.</h3>
+                            <div class="buttons-burguers">
+                                <input placeholder="1" type="number">
+                                <button>Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-burguer">
+                        <img src="assets/fries rustic.png" width="120px">
+                        <div class="container-texts-burguer">
+                            <div class="name-and-price">
+                                <h2>Fries Rustic</h2>
+                                <p>$ 4.00 USD</p>
+                            </div>
+                            <h3>Lorem Ipsum is simply dummy text of the printing<br>and typesetting industry.</h3>
+                            <div class="buttons-burguers">
+                                <input placeholder="1" type="number">
+                                <button>Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Div drinks-->
+                <div id="row-um-drinks" class="row-um-drinks">
+                    <div class="container-burguer">
+                        <img src="assets/drink fig e lime.png" width="120px">
+                        <div class="container-texts-burguer">
+                            <div class="name-and-price">
+                                <h2>Drink Fig & Lime</h2>
+                                <p>$ 4.00 USD</p>
+                            </div>
+                            <h3>Lorem Ipsum is simply dummy text of the printing<br>and typesetting industry.</h3>
+                            <div class="buttons-burguers">
+                                <input placeholder="1" type="number">
+                                <button>Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-burguer">
+                        <img src="assets/drink liquor.png" width="120px">
+                        <div class="container-texts-burguer">
+                            <div class="name-and-price">
+                                <h2>Drink Liquor</h2>
+                                <p>$ 7.00 USD</p>
+                            </div>
+                            <h3>Lorem Ipsum is simply dummy text of the printing<br>and typesetting industry.</h3>
+                            <div class="buttons-burguers">
+                                <input placeholder="1" type="number">
+                                <button>Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="row-dois-drinks" class="row-dois-drinks">
+                    <div class="container-burguer">
+                        <img src="assets/drink lime.png" width="120px">
+                        <div class="container-texts-burguer">
+                            <div class="name-and-price">
+                                <h2>Drink Lime</h2>
+                                <p>$ 4.00 USD</p>
+                            </div>
+                            <h3>Lorem Ipsum is simply dummy text of the printing<br>and typesetting industry.</h3>
+                            <div class="buttons-burguers">
+                                <input placeholder="1" type="number">
+                                <button>Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-burguer">
+                        <img src="assets/drink cola.png" width="120px">
+                        <div class="container-texts-burguer">
+                            <div class="name-and-price">
+                                <h2>Drink Cola</h2>
+                                <p>$ 3.00 USD</p>
+                            </div>
+                            <h3>Lorem Ipsum is simply dummy text of the printing<br>and typesetting industry.</h3>
+                            <div class="buttons-burguers">
+                                <input placeholder="1" type="number">
+                                <button>Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="coluna-tres-quarta-dobra">
+                <button class="btn">See Full Menu</button>
+            </div>
+        </section>
+
+        <section class="quinta-dobra">
+            <div class="lado-esquerdo-quinta-dobra">
+                <img src="assets/img3.png" width="600px">
+            </div>
+            <div class="lado-direito-quinta-dobra">
+                <h1>Order online with our<br>simple checkout.</h1>
+                <h3>Lorem Ipsum is a simply dummy text of the printing and typesetting<br>industry. Lorem Ipsum has been the industry's standard dummy text<br>ever since the 1500.</h3>
+                <button>See our FAQ</button>
+            </div>
+        </section>
+
+        <section class="sexta-dobra">
+            <div class="lado-esquerdo-sexta-dobra">
+                <h1>Call our store and<br>takeaway when it suits<br>you best.</h1>
+                <h3>Lorem Ipsum is simply dummy text of the printing and typesetting<br>industry. Lorem Ipsum has been the industry's standard dummy text<br>ever since the 1500.</h3>
+                <button>Ph. +61 233 2333</button>
+            </div>
+            <div class="lado-direito-sexta-dobra">
+                <img src="assets/img4.png" width="500px">
+            </div>
+        </section>
+
+        <section class="setima-dobra">
+            <div class="lado-esquerdo-setima-dobra">
+                <img src="assets/bgd6.png" width="700px">
+            </div>
+            <div class="lado-direito-setima-dobra">
+                <h1><span>Support</span> good food<br>and local business.</h1>
+                <button>Order Now</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <section class="primeira-dobra-footer">
+            <div class="coluna-um-footer">
+                <img src="assets/logo.svg" width="50px">
+                <h3>Takeaway & Delivery template<br>for small - medium business.</h3>
+            </div>
+            <div class="coluna-dois-footer">
+                <p>COMPANY</p>
+                <a href="">Home</a>
+                <a href="">Order</a>
+                <a href="">FAQ</a>
+                <a href="">Contact</a>
+            </div>
+            <div class="coluna-tres-footer">
+                <p>TEMPLATE</p>
+                <a href="">Style Guide</a>
+                <a href="">Changelog</a>
+                <a href="">Licence</a>
+                <a href="">Webflow University</a>
+            </div>
+            <div class="coluna-quatro-footer">
+                <p>FLOWBASE</p>
+                <a href="">More Cloneables</a>
+            </div>
+        </section>
+
+        <section class="segunda-dobra-footer">
+            <div class="lado-esquerdo-dois-footer">
+                <p>Built by <span>Yago Fontanez</span> | Powered by <span>Webflow</span></p>
+            </div>
+            <div class="lado-direito-dois-footer">
+                <i id="insta" class='bx bxl-instagram'></i>
+                <i id="tt" class='bx bxl-twitter'></i>
+                <i id="yt" class='bx bxl-youtube'></i>
+            </div>
+        </section>
+    </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
